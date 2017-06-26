@@ -5,5 +5,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/chartist.css">
     <link href="css/style-jor.css" rel="stylesheet">
     <link rel="stylesheet" href="css/css.css">
