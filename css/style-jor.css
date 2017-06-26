@@ -202,6 +202,142 @@ background-color: #f0f2f3;
 }
 
 
+/*upgrade*/
+
+
+.color-white2{
+	background-color:white;
+	width:100%;
+	height: auto;
+   padding-top: 90px;
+   border-radius: 5px;
+   margin-top: 10%;
+}
+
+h3.conv-upgrade{
+	color:#f14d4d;
+	text-align: center;
+	font-weight: 200;
+}
+
+img.upgrade{
+	display: block;
+	margin: auto;
+}
+
+p.nec-up{
+	color: #777777;
+	margin-top:20px;
+}
+
+.cent{
+margin-left: 32%;
+padding-top: 5%;
+}
+
+.numt-up{
+	margin-left:38%;
+	margin-top:5%;
+
+}
+
+input.input-upgrade{
+border-style: solid;
+border-radius:10px;
+padding-top:5px;
+padding-bottom: 5px;
+border-color:#f0f2f3;
+padding-left:9px;
+width: 300px;
+background-color: #f0f2f3;
+margin-left: 38%;
+}
+
+.cards-upgrade{
+	margin-left:37%;
+	padding-top:2%;
+}
+
+.cards-upgrade-second{
+	margin-left:36%;
+	padding-top:2%;
+	padding-left: 10px;
+}
+
+
+input.input-card{
+border-style: solid;
+border-radius:10px;
+padding-top:5px;
+padding-bottom: 5px;
+border-color:#f0f2f3;
+padding-left:9px;
+width: 50px;
+background-color: #f0f2f3;
+}
+
+p.text-cvv{
+	margin-left:10px;
+	margin-top: 5px;
+}
+
+.paddin-buttonenv2{
+	padding-top:2%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.padin-checkbox{
+	padding-top:2%;
+	margin-left:130px;
+	padding-left:27%;
+}
+
+@media only screen and (max-width:1199px) {
+
+	.numt-up{
+		margin-left:35%; 
+	}
+
+	input.input-upgrade{
+		margin-left: 35%;
+	}
+
+	.cards-upgrade{
+		margin-left: 34%;
+	}
+
+	.cards-upgrade-second{
+		margin-left: 33%;
+
+	}
+
+	.padin-checkbox{
+		padding-left: 22%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
