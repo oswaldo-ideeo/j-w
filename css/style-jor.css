@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+  background-image:url(../images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f1a343;
+}
+
+.navbar-default{
+	background-color:rgba(248, 248, 248, 0);
+	border-color: rgba(248, 248, 248, 0);
+}
+
+a.login{
+	color: white !important;
+	font-size: 13px;
+}
+
+a.login-button{
+	border-radius: 20px !important;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	padding-left:20px !important;
+	padding-right:20px !important;
+	border-color: white !important;
+	border:solid 1px; 
+	margin-top:9px;
+}
+
+a.login-button:hover{
+background-color: white !important;
+cursor: pointer !important;
+color: #f1a343!important;
+}
+
+a.registro{
+    border-radius: 20px !important;
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+	padding-left:25px !important;
+	padding-right:25px !important;
+	border-color: white !important;
+	background-color:#f14d4d;
+	color: white; 
+}
