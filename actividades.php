@@ -19,15 +19,28 @@
 					
 					<h1 class="acti-title">Completa actividades e incrementa tus ganancias</h1>
 
-					<div class="c-actividades">
+					<div class="c-actividades t-center">
 						<div class="acti-item">
-							<div class="acti-name">Encuesta</div>
+							<div class="acti-name back-verde">Encuesta</div>
 							<img src="images/news.png" alt="">
 							<p class="en-title">Encuesta No.1</p>
-							<p class="en desc">Descripción de una linea</p>
+							<p class="en-desc">Descripción de una linea</p>
+							<p class="en-gana">GANA $10 CRÉDITOS</p>
 						</div>
-						<div class="acti-item"></div>
-						<div class="acti-item"></div>
+						<div class="acti-item acti-app">
+							<p class="app-title">PROMO APP</p>
+							<p class="app-desc">Regístrate en la App y gana</p>
+							<p class="app-gana">$10</p>
+							<p class="app-cred">CRÉDITOS</p>
+							<a href="#" class="app-promo back-rojo">IR A PROMOCIÓN</a>
+						</div>
+						<div class="acti-item">
+							<div class="acti-name back-verde">Encuesta</div>
+							<img src="images/news.png" alt="">
+							<p class="en-title">Encuesta No.1</p>
+							<p class="en-desc">Descripción de una linea</p>
+							<p class="en-gana">GANA $10 CRÉDITOS</p>
+						</div>
 					</div>
 				</div>
 			</div>

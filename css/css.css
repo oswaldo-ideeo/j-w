@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 /*colores*/
 
 .back-amarillo{
@@ -143,7 +146,219 @@
 	margin-bottom: 50px;
 }
 
+.acti-item{
+	background-color: #fff;
+	width: 300px;
+	padding: 1rem;
+	display: inline-block;
+	height: 250px;
+	margin: 0 1rem;
+}
 
+.c-actividades{
+	margin:0 auto;
+}
+
+.acti-name{
+	width: 70px;
+	font-size: 1rem;
+	color: #fff;
+	border-radius: 10px;
+	padding: 0.3rem 1rem;
+	text-transform: uppercase;
+}
+
+.en-title{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.en-desc{
+	color: #9da5ab;
+	font-size: 1.5rem;
+}
+
+.en-gana{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.acti-item img{
+	margin:3rem 0;
+}
+
+.acti-app{
+	background-image: url('../images/app-ejemplo.png');
+	background-size: cover;
+	color: #fff;
+	-ms-transform: translateY(-3.1rem);
+	-webkit-transform: translateY(-3.1rem);
+	transform: translateY(-3.1rem);
+	margin-top: 5.1rem;
+}
+
+.app-title, .app-gana{
+	font-size: 3rem;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.app-cred{
+	margin:0;
+	padding: 0;
+	font-size: 1rem;
+	-ms-transform: translateY(-15px);
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+}
+
+.app-desc{
+	font-size: 2rem;
+}
+
+
+.app-promo{
+	border-radius: 20px;
+	padding: 1rem 1.5rem;
+	color: #fff;
+	margin-top: 2rem;
+}
+
+/*perfil*/
+
+.red{
+	background-color: #ff0036;
+	box-shadow: 0 5px 5px #aa0016;
+}
+
+.perfil-f{
+	overflow: hidden;
+	border-radius: 100%;
+	width: 100px;
+	height:100px;
+}
+
+.perfil-f img{
+	max-width: 100%;
+}
+
+.perfil-f, .perfil-info{
+	display: inline-block;
+}
+
+.perfil-info{
+	text-align: left;
+	padding-left: 1rem;
+}
+
+.p-name{
+	font-size: 1.9rem;
+}
+
+.p-mail{
+	-ms-transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.p-editar{
+	-ms-transform: translateY(-15px);
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+}
+
+.perfil-sec{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.p-datos{
+	display: inline-block;
+	width: 49%;
+}
+
+.saldo img{
+	width: 150px;
+}
+
+.saldo-text{
+	font-size: 2.3rem;
+}
+
+.saldo-cantidad{
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.p-grafica{
+	padding: 3rem 1rem;
+	color: #fff;
+}
+
+/*perfiln2*/
+.saldon2{
+	background-color: #fff;
+	padding: 2rem;
+	height: 245px;
+	transform: translateY(-10px;);
+	float: left;
+
+}
+
+.saldon2 img{
+	width: 50px;
+}
+
+.d-inline{
+	display: inline-block;
+}
+
+.monto{
+	border:none;
+	background-color: rgba(0,0,0,0);
+	text-align: right;
+	height: 40px;
+}
+
+.in-monto{
+	border-radius: 20px;
+	height: 40px;
+	background-color: #edeef3;
+	width: 200px;
+	margin: 3rem auto;
+}
+
+.invertir{
+	border:none;
+	padding: 1rem 1.5rem;
+	color: #fff;
+	border-radius: 20px;
+}
+
+
+.b-nivel2{
+	transform: none;
+}
+
+.log-retirar img{
+	width: 50px;
+}
+
+.n2ret{
+	float: left;
+	text-align: right;
+}
+
+.saldo-cant{
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-top: 0;
+	margin-top: 0;
+	transform: translateY(-12px);
+	-ms-transform: translateY(-12px);
+	-webkit-transform: translateY(-12px);
+}
 
 
 
@@ -154,5 +369,14 @@
 
 	.c-secundario{
 		width: 90%;
+	}
+	.perfil-sec{
+		width: 90%;
+	}
+	
+}
+@media (max-width:960px ) {
+	.p-datos{
+		width: 100%;
 	}
 }
