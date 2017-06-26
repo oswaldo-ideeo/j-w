@@ -38,13 +38,12 @@
 </div>
 
 <div class="container">
-	<div class="row">
+	<div class="row content-cen">
 		<div class="col-md-6">
 			<img src="images/coin.png">
 		</div>
 	
-
-		<div class="col-md-6 col-l">
+		<div class="col-md-6">
 			<h1>Gana dinero de la forma más fácil con JustWIN.</h1>
 			<p>Gana dinero de la forma más fácil con JustWIN.</p>
 			<a class="registro" href="#">REGISTRARME</a>
