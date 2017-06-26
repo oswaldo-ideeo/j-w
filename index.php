@@ -9,6 +9,7 @@
     <link href="css/style-jor.css" rel="stylesheet">
 </head>
 
+<body class="login">
 <div class="container-fluid">
 	<div class="row">
 	 <br>
