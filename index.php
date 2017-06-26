@@ -25,8 +25,9 @@
 				<a class="registro" href="registro.php">REGISTRARME</a>
 			</div>
 		</div>
-
 </div>
+
+
 
 
     <script src="js/jquery.js"></script>
