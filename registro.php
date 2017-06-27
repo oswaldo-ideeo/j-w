@@ -97,7 +97,7 @@
 
  								<div class="row">
  									<div class="col-md-12 paddin-buttonenv">
- 										<a class="registro" href="registro.php">INICIAR SESIÓN</a>
+ 										<a class="registro" href="home.php">INICIAR SESIÓN</a>
  									</div>
  								</div>
  							</div>

@@ -105,7 +105,7 @@
 
 									<div class="row">
 										<div class="col-md-12 paddin-buttonenv2">
-											<a class="registro" href="registro.php">ENVIAR</a>
+											<a class="registro" href="perfil-n2.php">ENVIAR</a>
 										</div>
 									</div>
 								</div>
