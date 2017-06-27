@@ -25,7 +25,7 @@
 							<p>Completa las tareas disponibles en la sección de Actividades y obtén más dinero en tu cuenta.</p>
 						</div>	
 						<div class="con-sec sec-boton">
-							<a href="ctividades.php" class="boton-home">GANAR MÁS</a>
+							<a href="actividades.php" class="boton-home">GANAR MÁS</a>
 						</div>
 					</div>
 				</div>
