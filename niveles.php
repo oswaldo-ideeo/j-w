@@ -20,10 +20,41 @@
 				</div>
 			</div>
 		</div>
-
 </div>
 
 <div class="container">
+<div class="row">
+	<div class="col-md-6">
+		<div class="red">
+			<h3 class="nv-uno">Nivel 1</h3>
+			<p class="prop">Proporcionanos algunos de tus
+				documentos y comienza
+				a generar ganancias sin invertir
+				dinero de tu bolsa</p>
+				<p class="estas-nivel">ESTAS EN ESTE NIVEL</p>
+
+			</div>
+
+		</div>
+
+   <div class="col-md-6">
+   	<div class="yellow">
+   		<h3 class="nv-uno">Nivel 2</h3>
+   		<p class="prop">Genera una mayor cantidad
+   			de ingresos invirtiendo.
+   			Nosotros te informaremos
+   			cuándo es el mejor momento
+   			para realizar una inversión.</p>
+   			<div class="buton-subir">
+   				<a class="subir-n" href="#">SUBIR DE NIVEL</a>
+   			</div>
+   			
+   		</div>
+		
+	</div>
+
+
+</div>
 </div>
 </body>
 </html>
