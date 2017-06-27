@@ -117,7 +117,7 @@
 }
 
 .sec-boton{
-	width: 25%;
+	width: 25%
 	-ms-transform: translateY(-1rem);
 	-webkit-transform: translateY(-1rem);
 	transform: translateY(-3.5rem);
@@ -134,7 +134,7 @@
 }
 
 .sec-text{
-	width: 70%;
+	width: 60%;
 }
 
 /*actividades*/
@@ -294,6 +294,7 @@
 .p-grafica{
 	padding: 3rem 1rem;
 	color: #fff;
+	margin-top: 1rem;
 }
 
 /*perfiln2*/
@@ -437,6 +438,8 @@ h3{
 	color: black;
 }
 
+
+
 @media (max-width:768px ) {
 	.acti-title{
 		width: 90%;
@@ -467,4 +470,12 @@ h3{
 		width: 90%;
 	}
 	
+}
+
+@media (max-width:805px ) {
+	.sec-boton{
+		width: 100%;
+		height: 40px;
+		transform: none;
+	}
 }
