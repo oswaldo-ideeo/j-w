@@ -46,7 +46,7 @@
    			cuándo es el mejor momento
    			para realizar una inversión.</p>
    			<div class="buton-subir">
-   				<a class="subir-n" href="#">SUBIR DE NIVEL</a>
+   				<a class="subir-n" href="upgrade.php">SUBIR DE NIVEL</a>
    			</div>
  
    		</div>

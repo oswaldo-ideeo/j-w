@@ -300,6 +300,12 @@ p.text-cvv{
 	margin-left:130px;
 	padding-left:27%;
 }
+@media only screen and (max-width:1290px) {
+	.c-secundario2{
+		width: 90%;
+	}
+}
+
 
 @media only screen and (max-width:1199px) {
 
@@ -362,6 +368,12 @@ p.text-cvv{
 		padding-top: 5%;
 	}
 
+}
+
+@media only screen and (max-width: 624px) {
+	.red2{
+		font-size: 10px;
+	}
 }
 
 @media only screen and (max-width: 424px) {
