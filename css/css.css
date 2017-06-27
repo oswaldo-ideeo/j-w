@@ -38,7 +38,7 @@
 
 /*navegador*/
 
-.nav{
+.nav2{
 	background-color: #fff;
 
 }
@@ -439,6 +439,33 @@ h3{
 }
 
 
+/*login*/
+#login{
+	position: absolute;
+	z-index: 200;
+	right: 10px;
+	top: 80px;
+	display: none;
+}
+
+.login-dismis{
+	width: 100vw;
+	height:100vh;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.reg-white{
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.terms{
+	padding: 2rem;
+}
 
 @media (max-width:768px ) {
 	.acti-title{

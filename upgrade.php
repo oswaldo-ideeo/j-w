@@ -19,7 +19,7 @@
 				<div class="contenido-home t-center">
 					
 					<div class="c-secundario2">
-						<div class="con-sec sec-text t-left">åå
+						<div class="con-sec sec-text t-left">
 							<div class="perfil-f">
 								<img src="images/user-example.png" alt="">
 							</div>
@@ -30,7 +30,7 @@
 							</div>
 						</div>	
 						<div class="con-sec sec-boton">
-							<a href="ctividades.php" class="boton-home red2">GANAR MÁS</a>
+							<a href="actividades.php" class="boton-home red2">GANAR MÁS</a>
 						</div>
 					</div>
 				</div>

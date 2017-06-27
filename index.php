@@ -1,16 +1,19 @@
+ <?php $title = 'JustWIN'; ?>
  <!DOCTYPE html>
- <html>
+ <html lang="es">
  <head>
-    <title>Just Win</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style-jor.css" rel="stylesheet">
+  <?php include 'includes/head.php' ?>
+
 </head>
 
-<body class="login">
+<body class="login-gene">
 <?php include 'includes/nav-login.php'; ?>
+
+<!--login-->
+<?php include 'includes/login.php'; ?>
+<!--loginfin-->
+
+
 
 <div class="container">
 	<div class="row content-cen">
@@ -32,5 +35,18 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script>
+		$('#open-login').on('click', function(){
+			$('#login').slideToggle();
+			$('.login-dismis').show();
+		})
+
+		$('.login-dismis').on('click', function(){
+			$('#login').slideUp();
+			$(this).hide();
+		})
+	</script>
+
+
 </body>
 </html>

@@ -1,5 +1,5 @@
 <div class="container-fluid">
-		<div class="row" class="nav">
+		<div class="row" class="nav2">
 			<div class="col-sm-3 navegador">
 				<div class="logo-container">
 					<a href="home.php"><img src="images/logo-min.png" alt=""></a>
