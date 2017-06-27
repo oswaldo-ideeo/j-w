@@ -19,8 +19,7 @@
 				<div class="contenido-home t-center">
 					
 					<div class="c-secundario2">
-						<div class="con-sec sec-text t-left">
-
+						<div class="con-sec sec-text t-left">åå
 							<div class="perfil-f">
 								<img src="images/user-example.png" alt="">
 							</div>
@@ -115,5 +114,7 @@
 					</div>
 				</div>
 			</div>
+				<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 		</body>
 		</html>

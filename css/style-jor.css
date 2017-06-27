@@ -370,11 +370,8 @@ p.text-cvv{
 
 }
 
-@media only screen and (max-width: 624px) {
-	.red2{
-		font-size: 10px;
-	}
-}
+
+
 
 @media only screen and (max-width: 424px) {
 
@@ -411,6 +408,7 @@ p.text-cvv{
 		.paddin-buttonenv2{
 		padding-top: 8%;
 	}
+
 
 input.input-card{
 	width: 40px;
