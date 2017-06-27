@@ -433,6 +433,10 @@ h3{
 	padding: 0.5rem 1rem;
 }
 
+.c-actividades a{
+	color: black;
+}
+
 @media (max-width:768px ) {
 	.acti-title{
 		width: 90%;
