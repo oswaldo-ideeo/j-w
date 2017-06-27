@@ -37,7 +37,7 @@
 							<div class="log-retirar d-inline">
 								<img src="images/logo-amarillo-sombra.png" alt="">
 							</div>
-							<a href="#" class="boton-home red">RETIRAR</a>
+							<a href="#" class="boton-home red2">RETIRAR</a>
 						</div>
 					</div>
 

@@ -30,7 +30,7 @@
 							</div>
 						</div>	
 						<div class="con-sec sec-boton">
-							<a href="ctividades.php" class="boton-home red">GANAR MÁS</a>
+							<a href="ctividades.php" class="boton-home red2">GANAR MÁS</a>
 						</div>
 					</div>
 
