@@ -68,5 +68,16 @@
   			}
 		});
 	</script>
+
+	<script>
+			$('#open-user').on('click', function(){
+				$('.menu-nav').slideToggle();
+				$('.close-nav').show();
+			})
+			$('.close-nav').on('click', function(){
+				$('.menu-nav').slideUp();
+				$(this).hide();
+			})
+		</script>
 </body>
 </html>

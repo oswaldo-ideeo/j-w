@@ -294,7 +294,6 @@
 .p-grafica{
 	padding: 3rem 1rem;
 	color: #fff;
-	margin-top: 1rem;
 }
 
 /*perfiln2*/
@@ -467,6 +466,66 @@ h3{
 	padding: 2rem;
 }
 
+/*cambios*/
+.menu-nav{
+	background-color: #313436;
+	color: #fff;
+	padding: 1rem;
+	width: 150px;
+	float: right;
+	border-radius: 5px;
+	z-index: 500;
+	position: absolute;
+	right: 10px;
+	display: none;
+}
+
+.menu-nav a{
+	color: #fff;
+}
+
+.close-nav{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(0,0,0,0,);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 400;
+}
+
+.imag-perfil-per{
+	padding-left: 8rem;
+}
+
+.segundo-paso{
+	z-index: 900;
+	display: none;
+}
+
+.invert-men{
+	font-size: 2.5rem;
+}
+
+.modulo-uno-n2{
+	color: #777;
+}
+
+.des-mod-uno{
+	font-size: 1.8rem;
+	margin-top: 2rem;
+}
+
+.porcentaje-gan{
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.terms2{
+	margin-top: 2rem;
+}
+
 @media (max-width:768px ) {
 	.acti-title{
 		width: 90%;
@@ -483,7 +542,10 @@ h3{
 @media (max-width:960px ) {
 	.p-datos{
 		width: 100%;
+
 	}
+
+	
 }
 @media (max-width:768px ) {
 	.acti-title{
@@ -501,8 +563,41 @@ h3{
 
 @media (max-width:805px ) {
 	.sec-boton{
-		width: 100%;
+		
 		height: 40px;
 		transform: none;
 	}
+	
 }
+
+@media only screen and (max-width: 420px) {
+	.acti-title{
+		margin-top: 2rem;
+	}
+	.contenido-home{
+		padding-top: 2rem;
+	}
+
+	.on-xs{
+		float: right;
+		position: absolute;
+		z-index: 9999;
+		right: 0;
+		top: 0;
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1128px) {
+	.des-mod-uno{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.porcentaje-gan{
+		margin: 0;
+	}
+	.in-monto{
+		margin-top: 1rem;
+	}
+}
+

@@ -37,12 +37,25 @@
 							<div class="log-retirar d-inline">
 								<img src="images/logo-amarillo-sombra.png" alt="">
 							</div>
+							<div>
 							<a href="#" class="boton-home red2">RETIRAR</a>
+							</div>
 						</div>
 					</div>
 
 					<div class="perfil-sec">
-						<div class="p-datos saldon2">
+						<div class="p-datos saldon2 primer-paso">
+							<img src="images/logo-amarillo-sombra.png" alt="" class="d-inline">
+							<p class="n2-ingresa d-inline invert-men">!invierte capital¡</p>
+							<div class="in-uno">
+								<p class="modulo-uno-n2 des-mod-uno">Obtén ganancias diarias de hasta el</p>
+								<p class="modulo-uno-n2 porcentaje-gan">14%</p>
+							</div>
+							<button type="button" class="invertir back-azul" id="det-invertir">INVERTIR</button>
+							
+						</div>
+
+						<div class="p-datos saldon2 segundo-paso">
 							<img src="images/logo-amarillo-sombra.png" alt="" class="d-inline">
 							<p class="n2-ingresa d-inline">Ingresa el monto que deseas invertir</p>
 							<form action="">
@@ -52,6 +65,7 @@
 								<button type="submit" class="invertir back-azul">INVERTIR</button>
 							</form>
 						</div>
+
 						<div class="p-datos p-grafica back-amarillo">
 							
 							<p><span class="fa fa-bar-chart"></span>Comportamiento del mercado</p>
@@ -79,6 +93,24 @@
     		right: 40
   			}
 		});
+	</script>
+
+	<script>
+			$('#open-user').on('click', function(){
+				$('.menu-nav').slideToggle();
+				$('.close-nav').show();
+			})
+			$('.close-nav').on('click', function(){
+				$('.menu-nav').slideUp();
+				$(this).hide();
+			})
+	</script>
+	<script>
+		$('#det-invertir').on('click', function(){
+			$('.segundo-paso').show();
+			$('.primer-paso').hide();
+
+		})
 	</script>
 </body>
 </html>

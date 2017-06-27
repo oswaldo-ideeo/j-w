@@ -94,6 +94,8 @@
 					$('#login').slideUp();
 					$(this).hide();
 				})
-	</script>
+
+				
+			</script>
  		</body>
  		</html>

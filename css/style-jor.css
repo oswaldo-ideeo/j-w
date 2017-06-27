@@ -208,15 +208,16 @@ background-color: #f0f2f3;
 	background-color:white;
 	width:100%;
 	height: auto;
-   padding-top: 90px;
+   padding-top: 1rem;
    border-radius: 5px;
-   margin-top: 10%;
+   margin-top: 2rem;
 }
 
 h3.conv-upgrade{
 	color:#f14d4d;
 	text-align: center;
 	font-weight: 200;
+	font-size: 2.5rem;
 }
 
 img.upgrade{
@@ -456,21 +457,23 @@ h3.nv-uno{
 	color: white;
 	text-align: center;
 	padding-top:10%;
+	font-size: 4rem;
 }
 
 p.prop{
 	text-align: center;
 	color: white;
-	padding-top: 22%;
+	padding-top: 3rem;
 	font-size: 18px;
 	padding-left: 15px;
 	padding-right: 15px;
+	height: 200px;
 }
 
 p.estas-nivel{
 	text-align: center;
 	color: white;
-	padding-top: 20%;
+	margin-top: 1rem;
 	font-size: 18px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -493,7 +496,7 @@ opacity: .8;
 
 .buton-subir{
 text-align: center;
-margin-top: 15%;
+
 }
 
 
@@ -512,12 +515,11 @@ margin:auto;
 display: block;
 margin:auto;
 width: 280px;
-height: 280px;
+
 }
 
 .buton-subir{
 text-align: center;
-margin-top: 25%;
 padding-bottom: 10%;
 }
 

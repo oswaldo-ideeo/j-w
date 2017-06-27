@@ -46,7 +46,7 @@
 				<div class="color-white2">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="conv-upgrade">Conviertete en usuario nivel 2</h3>
+							<h3 class="conv-upgrade">Conviertete en usuario nivel 2.</h3>
 						</div>
 						<div class="col-md-12 cent">
 							<div class="col-md-2">
@@ -94,12 +94,14 @@
 									</div>
 								</div>
 
-								<div class="row">
-									<div class="col-md-12 padin-checkbox">
-										<label class="checkbox-inline"><input class="checkbox-r" type="checkbox" value="">
+								<div class="row t-center">
+									<div class="col-md-12 terms2">
+									<input class="checkbox-r" type="checkbox" value="">
+										<label class="checkbox-inline">
 											<p class="condiciones">He leido y Acepto los <b class="term">Términos y Condiciones,</b><br>
 												así como la <b class="term">Política Integral del Servicio.</b></p>
 											</label>
+
 										</div>
 									</div>
 
@@ -116,5 +118,15 @@
 			</div>
 				<script src="./js/jquery.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
+	<script>
+			$('#open-user').on('click', function(){
+				$('.menu-nav').slideToggle();
+				$('.close-nav').show();
+			})
+			$('.close-nav').on('click', function(){
+				$('.menu-nav').slideUp();
+				$(this).hide();
+			})
+		</script>
 		</body>
 		</html>
