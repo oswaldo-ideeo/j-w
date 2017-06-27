@@ -318,7 +318,106 @@ p.text-cvv{
 
 }
 
+@media only screen and (max-width:991px) {
+.cent{
+	margin-left: 5%;
+	padding-bottom: 2%;
+}
+	.numt-up{
+		margin-left:29%; 
+	}
 
+	input.input-upgrade{
+		margin-left:29%;
+	}
+
+	.cards-upgrade{
+		margin-left:28%;
+	}
+
+	.cards-upgrade-second{
+		margin-left:27%;
+
+	}
+
+	.padin-checkbox{
+		padding-left:12.5%;
+	}
+
+	.necesitams{
+		padding-left: 170px;
+		margin-top: 10px;
+		padding-right:160px;
+	}
+
+	.paddin-buttonenv2{
+		padding-top: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 424px) {
+
+	.necesitams{
+		padding-left:25px;
+		margin-top: 25px;
+		padding-right:5px;
+	}
+
+		.numt-up{
+		margin-left:11.5%; 
+	}
+
+		input.input-upgrade{
+		margin-left:12%;
+	}
+
+		.cards-upgrade{
+		margin-left:11.5%;
+		padding-top: 7%;
+	}
+
+		.cards-upgrade-second{
+		margin-left:10%;
+
+	}
+
+		.padin-checkbox{
+	   margin-left:2%;
+	   padding-right: 60px;
+	   padding-top: 7%;
+	}
+
+		.paddin-buttonenv2{
+		padding-top: 8%;
+	}
+
+input.input-card{
+	width: 40px;
+	padding-left: 3px;
+	font-size: 10px;
+}
+
+.float{
+	padding-right: 40px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 370px) {
+	input.input-upgrade{
+		width: 220px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.float{
+	padding-right:30px;
+}
+
+}
 
 
 
