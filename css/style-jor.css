@@ -202,6 +202,241 @@ background-color: #f0f2f3;
 }
 
 
+/*upgrade*/
+
+
+.color-white2{
+	background-color:white;
+	width:100%;
+	height: auto;
+   padding-top: 90px;
+   border-radius: 5px;
+   margin-top: 10%;
+}
+
+h3.conv-upgrade{
+	color:#f14d4d;
+	text-align: center;
+	font-weight: 200;
+}
+
+img.upgrade{
+	display: block;
+	margin: auto;
+}
+
+p.nec-up{
+	color: #777777;
+	margin-top:20px;
+}
+
+.cent{
+margin-left: 32%;
+padding-top: 5%;
+}
+
+.numt-up{
+	margin-left:38%;
+	margin-top:5%;
+
+}
+
+input.input-upgrade{
+border-style: solid;
+border-radius:10px;
+padding-top:5px;
+padding-bottom: 5px;
+border-color:#f0f2f3;
+padding-left:9px;
+width: 300px;
+background-color: #f0f2f3;
+margin-left: 38%;
+}
+
+.cards-upgrade{
+	margin-left:37%;
+	padding-top:2%;
+}
+
+.cards-upgrade-second{
+	margin-left:36%;
+	padding-top:2%;
+	padding-left: 10px;
+}
+
+
+input.input-card{
+border-style: solid;
+border-radius:10px;
+padding-top:5px;
+padding-bottom: 5px;
+border-color:#f0f2f3;
+padding-left:9px;
+width: 50px;
+background-color: #f0f2f3;
+}
+
+p.text-cvv{
+	margin-left:10px;
+	margin-top: 5px;
+}
+
+.paddin-buttonenv2{
+	padding-top:2%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.padin-checkbox{
+	padding-top:2%;
+	margin-left:130px;
+	padding-left:27%;
+}
+
+@media only screen and (max-width:1199px) {
+
+	.numt-up{
+		margin-left:35%; 
+	}
+
+	input.input-upgrade{
+		margin-left: 35%;
+	}
+
+	.cards-upgrade{
+		margin-left: 34%;
+	}
+
+	.cards-upgrade-second{
+		margin-left: 33%;
+
+	}
+
+	.padin-checkbox{
+		padding-left: 22%;
+	}
+
+}
+
+@media only screen and (max-width:991px) {
+.cent{
+	margin-left: 5%;
+	padding-bottom: 2%;
+}
+	.numt-up{
+		margin-left:29%; 
+	}
+
+	input.input-upgrade{
+		margin-left:29%;
+	}
+
+	.cards-upgrade{
+		margin-left:28%;
+	}
+
+	.cards-upgrade-second{
+		margin-left:27%;
+
+	}
+
+	.padin-checkbox{
+		padding-left:12.5%;
+	}
+
+	.necesitams{
+		padding-left: 170px;
+		margin-top: 10px;
+		padding-right:160px;
+	}
+
+	.paddin-buttonenv2{
+		padding-top: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 424px) {
+
+	.necesitams{
+		padding-left:25px;
+		margin-top: 25px;
+		padding-right:5px;
+	}
+
+		.numt-up{
+		margin-left:11.5%; 
+	}
+
+		input.input-upgrade{
+		margin-left:12%;
+	}
+
+		.cards-upgrade{
+		margin-left:11.5%;
+		padding-top: 7%;
+	}
+
+		.cards-upgrade-second{
+		margin-left:10%;
+
+	}
+
+		.padin-checkbox{
+	   margin-left:2%;
+	   padding-right: 60px;
+	   padding-top: 7%;
+	}
+
+		.paddin-buttonenv2{
+		padding-top: 8%;
+	}
+
+input.input-card{
+	width: 40px;
+	padding-left: 3px;
+	font-size: 10px;
+}
+
+.float{
+	padding-right: 40px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 370px) {
+	input.input-upgrade{
+		width: 220px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.float{
+	padding-right:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
