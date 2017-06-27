@@ -264,6 +264,14 @@ margin-left: 38%;
 	padding-left: 10px;
 }
 
+.c-secundario2{
+	width: 60%;
+	background-color: white;
+	padding: 2rem;
+	margin: 0 auto;
+
+}
+
 
 input.input-card{
 border-style: solid;
@@ -484,6 +492,23 @@ margin-top: 15%;
 .red, .yellow{
 display: block;
 margin:auto;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+
+.red, .yellow{
+display: block;
+margin:auto;
+width: 280px;
+height: 280px;
+}
+
+.buton-subir{
+text-align: center;
+margin-top: 25%;
+padding-bottom: 10%;
 }
 
 }

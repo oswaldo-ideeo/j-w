@@ -48,7 +48,7 @@
    			<div class="buton-subir">
    				<a class="subir-n" href="#">SUBIR DE NIVEL</a>
    			</div>
-   			
+ 
    		</div>
 		
 	</div>

@@ -11,8 +11,38 @@
 	<!--nav-->
 	<?php include 'includes/nav.php' ?>
 	<!--nav fin-->
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 t-center">
+				<div class="contenido-home t-center">
+					
+					<div class="c-secundario2">
+						<div class="con-sec sec-text t-left">
+
+							<div class="perfil-f">
+								<img src="images/user-example.png" alt="">
+							</div>
+							<div class="perfil-info">
+								<p class="p-name">Alex Robinson</p>
+								<p class="p-mail">jace_mcclure@yahoo.com</p>
+								<p class="p-editar"><span class="fa fa-pencil"></span><a href="#">Editar Perfil</a></p>
+							</div>
+						</div>	
+						<div class="con-sec sec-boton">
+							<a href="ctividades.php" class="boton-home red2">GANAR MÁS</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<div class="container">
 		<div class="row">
+
 			<div class="col-sm-12 col-md-12">
 				<div class="color-white2">
 					<div class="row">
