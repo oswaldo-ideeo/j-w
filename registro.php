@@ -16,7 +16,7 @@
  	<div class="container">
  		<div class="row" >
  			<div class="col-sm-12 col-md-6">
- 				<div class="reg-white">
+ 				<div class="reg-white segundo-paso">
  					<h1 class="text-center">Registro</h1>
  					<div class="row">	
  						<div class="col-xs-6 t-center">
@@ -69,7 +69,53 @@
 
  					<div class="row">
  						<div class="col-md-12 paddin-buttonenv">
- 							<a class="registro" href="registro.php">ENVIAR</a>
+ 							<a class="registro" href="home.php">ENVIAR</a>
+ 						</div>
+ 					</div>
+ 	
+
+ 				</div>
+
+
+
+ 				<div class="reg-white primer-paso">
+ 					<h1 class="text-center">Registro</h1>
+ 					<div class="row">	
+ 						<div class="col-xs-6 t-center">
+ 							<div class="button-red">
+ 								<p class="n-one">1</p>
+ 							</div>
+ 						</div>
+ 						<div class="col-xs-6 t-center">
+ 							<div class="button-yellow grayd">
+ 								<p class="n-two">2</p>
+ 							</div>
+ 						</div>
+
+ 						<div class="col-md-12 col-xs-12 reg-text">
+ 							<form action="">
+ 								<label for="name" class="dat">NOMBRE</label>
+ 								<input type="text" class="dat-in">
+
+ 								<label for="" class="dat">APELLIDO</label>
+ 								<input type="text" class="dat-in">
+
+ 								<label for="" class="dat">CORREO ELECTRÓNICO</label>
+ 								<input type="text" class="dat-in">
+
+ 								<label for="" class="dat">CONFIRMAR CORREO ELECTRÓNICO</label>
+ 								<input type="text" class="dat-in">
+
+ 								<label for="" class="dat">ESTABLECER CONTRASEÑA</label>
+ 								<input type="text" class="dat-in">
+ 							</form>
+ 						</div>
+
+ 						
+
+ 					<div class="row">
+ 						<div class="col-md-12 paddin-buttonenv">
+ 							<button type="button" class="registro" id="det-invertir">Continuar</button>
  						</div>
  					</div>
  	
@@ -97,5 +143,12 @@
 
 				
 			</script>
+			<script>
+		$('#det-invertir').on('click', function(){
+			$('.segundo-paso').show();
+			$('.primer-paso').hide();
+
+		})
+	</script>
  		</body>
  		</html>
