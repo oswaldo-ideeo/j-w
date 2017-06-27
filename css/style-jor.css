@@ -419,15 +419,74 @@ input.input-card{
 
 }
 
+/*niveles*/
+
+.red{
+	background-image: url(../images/niveles-red.jpg);
+	width: 400px;
+	height: 400px;
+}
+
+.yellow{
+	background-image: url(../images/niveles-yellow.jpg);
+	width: 400px;
+	height: 400px;
+}
 
 
+h3.nv-uno{
+	color: white;
+	text-align: center;
+	padding-top:10%;
+}
+
+p.prop{
+	text-align: center;
+	color: white;
+	padding-top: 22%;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+p.estas-nivel{
+	text-align: center;
+	color: white;
+	padding-top: 20%;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+a.subir-n{
+	background-color:#f14d4d;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	border-radius: 30px;
+	padding-top: 15px;
+}
+a.subir-n:hover{
+opacity: .8;
+}
+
+.buton-subir{
+text-align: center;
+margin-top: 15%;
+}
 
 
+@media only screen and (max-width: 990px) {
 
+.red, .yellow{
+display: block;
+margin:auto;
+}
 
-
-
-
+}
 
 
 
