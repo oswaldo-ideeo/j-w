@@ -57,7 +57,7 @@
 										<div>¿Estas registrado como estudiante?</div>
 											<form action="">
 												<div class="pregunta">
-													<input type="radio" name="res"><label for="">Sí</label>
+													<input type="radio" name="res" checked><label for="">Sí</label>
 												</div>
 												<div class="pregunta">
 													<input type="radio" name="res"><label for="">No</label>
@@ -78,10 +78,19 @@
 										<div>¿Cuál es el mayor grado escolar que has alcanzado?</div>
 											<form action="">
 												<div class="pregunta">
-													<input type="radio" name="estudio"><label for="">Sí</label>
+													<input type="radio" name="estudio"><label for="">Secundaria/GCSE</label>
 												</div>
 												<div class="pregunta">
-													<input type="radio" name="estudio"><label for="">No</label>
+													<input type="radio" name="estudio"><label for="">Entrenamiento/aprendizaje</label>
+												</div>
+												<div class="pregunta">
+													<input type="radio" name="estudio"><label for="">Prueba de admisión universitaria</label>
+												</div>
+												<div class="pregunta">
+													<input type="radio" name="estudio" checked><label for="">Escuela de calificación superior</label>
+												</div>
+												<div class="pregunta">
+													<input type="radio" name="estudio"><label for="">Ninguno de estos</label>
 												</div>
 											</form>
 									</td>
@@ -90,8 +99,14 @@
 
 								
 
+								
+
 							</tbody>
+
 						</table>
+						<div class="sig t-right">
+							<a href="">Siguiente <span class="fa fa-caret-right"></span></a>
+						</div>
 					</div>
 
 					

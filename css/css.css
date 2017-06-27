@@ -226,7 +226,7 @@
 
 /*perfil*/
 
-.red{
+.red2{
 	background-color: #ff0036;
 	box-shadow: 0 5px 5px #aa0016;
 }
@@ -420,9 +420,16 @@ h3{
 	padding-left: 1rem;
 }
 
+
 .pregunta label{
 	padding-left: 1rem;
 	font-weight: normal;
+}
+
+.sig{
+	border:1px solid #aaa;
+	border-radius: 20px;
+	width: 100px;
 }
 
 @media (max-width:768px ) {
