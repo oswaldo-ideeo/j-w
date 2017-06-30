@@ -16,8 +16,16 @@
 				</ul>
 			</div>
 			<div class="col-sm-3 navegador t-right on-xs">
-				<a href="notificaciones.php"><div class="fa fa-bell-o usuario alin"></div></a>
-				<a href="perfil.php"><p class="n-usuario usuario alin text-rojo">Alex Robinson</p></a>
+				<a href="notificaciones.php"><div class="fa fa-bell-o usuario alin bell-medium"></div></a>
+				
+				<div class="saldo-nav">
+					<p class="saldo-ret small-text">Tu saldo es:</p>
+					<p class="saldo-cant small-bold">$200.00</p>
+				</div>
+				<div class="log-retirar d-inline img-vsmall">
+					<img src="images/logo-amarillo-sombra.png" alt="">
+				</div>
+
 				<div class="f-usuario usuario"><img src="images/user-example.png" alt=""></div>
 				<div class="fa fa-chevron-down usuario alin" id="open-user"></div>
 				<div class="menu-nav">

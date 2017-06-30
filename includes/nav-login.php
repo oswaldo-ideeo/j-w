@@ -14,8 +14,8 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a class="login" href="#">¿CÓMO FUNCIONA?</a></li>
-						<li><button class="login login-button" id="open-login">LOGIN</button></li>
+						<li><a class="login" href="index.php#como-funciona">¿CÓMO FUNCIONA?</a></li>
+						<li><a class="login login-button" href="registro.php">REGISTRARME</a></li>
 					</ul>
 				</li>
 			</ul>

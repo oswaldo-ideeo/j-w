@@ -1,7 +1,7 @@
 <?php $title = 'Actividades'; ?>
 <?php $inicio = 'no-active'; ?>
-<?php $actividades = 'menu-active'; ?>
-<?php $nivel = 'no-active'; ?>
+<?php $actividades = 'no-active'; ?>
+<?php $niveles = 'menu-active'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

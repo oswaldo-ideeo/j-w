@@ -8,9 +8,6 @@
  <body class="login-gene">
  	<?php include 'includes/nav-login.php'; ?>
 
-<!--login-->
-	<?php include 'includes/login.php'; ?>
-<!--loginfin-->
 
 
  	<div class="container">
@@ -18,11 +15,13 @@
  			<div class="col-sm-12 col-md-6">
  				<div class="reg-white segundo-paso">
  					<h1 class="text-center">Registro</h1>
- 					<div class="row">	
+ 					<div class="row">
+ 					<div class="line-dif"></div>	
  						<div class="col-xs-6 t-center">
  							<div class="button-red">
  								<p class="n-one">1</p>
  							</div>
+ 							
  						</div>
  						<div class="col-xs-6 t-center">
  							<div class="button-yellow">
@@ -35,7 +34,12 @@
  						</div>
 
  						<div class="col-md-12 col-xs-12 profile-pic">
- 								<a href="#"><img src="images/foto-perfil.png"></a>
+ 								<a href="#">
+ 								<div class="foto-up">
+ 									<div class="fa fa-user-circle-o"></div>
+ 									<p>Foto de perfil</p>
+ 								</div>
+ 								</a>
  						</div>
 					</div>
  					
@@ -45,7 +49,7 @@
  						</div>
 
  						<div class="col-md-6">
- 							<input class="circle-border" type="text" name="adjunta" placeholder="Adjuntar archivo">
+ 							<input class="circle-border" type="text" name="adjunta" placeholder="Adjuntar archivo"><span class="fa fa-paperclip inverse"></span>
  						</div>
  					</div>
 					
@@ -55,7 +59,7 @@
  							<p><b>COMPROBANTE DE DOMICILIO</b></p>
  						</div>
  						<div class="col-md-6">
- 							<input class="circle-border" type="text" name="adjunta" placeholder="Adjuntar archivo">
+ 							<input class="circle-border" type="text" name="adjunta" placeholder="Adjuntar archivo"><span class="fa fa-paperclip inverse"></span>
  						</div>
  					</div>
 
@@ -80,11 +84,14 @@
 
  				<div class="reg-white primer-paso">
  					<h1 class="text-center">Registro</h1>
- 					<div class="row">	
+ 					<div class="row">
+ 					<div class="line-dif"></div>
  						<div class="col-xs-6 t-center">
+
  							<div class="button-red">
  								<p class="n-one">1</p>
  							</div>
+
  						</div>
  						<div class="col-xs-6 t-center">
  							<div class="button-yellow grayd">

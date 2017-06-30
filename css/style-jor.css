@@ -41,25 +41,9 @@ cursor: pointer !important;
 color: #f1a343!important;
 }
 
-.registro{
-    border-radius: 20px !important;
-	padding-top:15px !important;
-	padding-bottom:15px !important;
-	padding-left:25px !important;
-	padding-right:25px !important;
-	border-color: white !important;
-	background-color:#f14d4d;
-	color: white; 
-}
 
 .content-cen{
 	padding-top: 200px;
-}
-
-p.gana{
-	padding-top: 4%;
-	padding-bottom: 4%;
-	padding-right:100px;
 }
 
 a.registro:hover{
@@ -243,14 +227,14 @@ padding-top: 5%;
 
 input.input-upgrade{
 border-style: solid;
-border-radius:10px;
+border-radius:30px;
 padding-top:5px;
 padding-bottom: 5px;
 border-color:#f0f2f3;
 padding-left:9px;
 width: 300px;
 background-color: #f0f2f3;
-margin-left: 38%;
+height: 50px;
 }
 
 .cards-upgrade{
@@ -310,14 +294,7 @@ p.text-cvv{
 
 @media only screen and (max-width:1199px) {
 
-	.numt-up{
-		margin-left:35%; 
-	}
-
-	input.input-upgrade{
-		margin-left: 35%;
-	}
-
+	
 	.cards-upgrade{
 		margin-left: 34%;
 	}
@@ -338,13 +315,7 @@ p.text-cvv{
 	margin-left: 5%;
 	padding-bottom: 2%;
 }
-	.numt-up{
-		margin-left:29%; 
-	}
-
-	input.input-upgrade{
-		margin-left:29%;
-	}
+	
 
 	.cards-upgrade{
 		margin-left:28%;
@@ -382,13 +353,7 @@ p.text-cvv{
 		padding-right:5px;
 	}
 
-		.numt-up{
-		margin-left:11.5%; 
-	}
-
-		input.input-upgrade{
-		margin-left:12%;
-	}
+		
 
 		.cards-upgrade{
 		margin-left:11.5%;

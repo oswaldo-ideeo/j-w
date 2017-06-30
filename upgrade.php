@@ -50,7 +50,12 @@
 						</div>
 						<div class="col-md-12 cent">
 							<div class="col-md-2">
-								<img class="upgrade" src="images/foto-perfil.png">
+								<a href="#">
+ 								<div class="foto-up">
+ 									<div class="fa fa-user-circle-o"></div>
+ 									<p>Foto de perfil</p>
+ 								</div>
+ 								</a>
 							</div>
 							<div class="col-md-2 necesitams">
 								<p>Necesitamos una fotografía para acreditar la titularidad de la Tarjeta.
@@ -59,8 +64,8 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-12">
-								<p class="numt-up">NÚMERO DE LA TARJETA</p>
+							<div class="col-md-12 t-center">
+								<p class="hope" style="font-weight: 500;">NÚMERO DE LA TARJETA</p>
 								<input class="input-upgrade" type="text" placeholder="16 digitos de la tarjeta" name="">
 							</div>
 
@@ -78,7 +83,7 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-md-6 cards-upgrade">
-										<p>FECHA DE EXPIRACIÓN</p>
+										<p style="font-weight: 500;">FECHA DE EXPIRACIÓN</p>
 									</div>
 								</div>
 							</div>

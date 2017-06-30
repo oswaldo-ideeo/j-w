@@ -12,6 +12,14 @@
 <!--nav-->
 	<?php include 'includes/nav.php' ?>
 <!--nav fin-->
+<div id="modal-dismis"></div>
+<div id="modal-encuesta">
+	<div class="t-center">
+	<p>Aqui va el contenido de la encuesta</p>
+	<div class="fa fa-times-circle-o" id="close-modal" style="font-size: 5rem;"></div>
+	</div>
+</div>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 t-center">
@@ -20,15 +28,15 @@
 					<h1 class="acti-title">Completa actividades e incrementa tus ganancias</h1>
 
 					<div class="c-actividades t-center">
-						<a href="encuesta.php">
-						<div class="acti-item">
+						
+						<div class="acti-item" id="encuesta1">
 							<div class="acti-name back-verde">Encuesta</div>
 							<img src="images/news.png" alt="">
 							<p class="en-title">Encuesta No.1</p>
 							<p class="en-desc">Descripción de una linea</p>
 							<p class="en-gana">GANA $10 CRÉDITOS</p>
 						</div>
-						</a>
+						
 						<div class="acti-item acti-app">
 							<p class="app-title">PROMO APP</p>
 							<p class="app-desc">Regístrate en la App y gana</p>
@@ -36,15 +44,15 @@
 							<p class="app-cred">CRÉDITOS</p>
 							<a href="#" class="app-promo back-rojo">IR A PROMOCIÓN</a>
 						</div>
-						<a href="encuesta.php">
-						<div class="acti-item">
+						
+						<div class="acti-item" id="encuesta2">
 							<div class="acti-name back-verde">Encuesta</div>
 							<img src="images/news.png" alt="">
 							<p class="en-title">Encuesta No.1</p>
 							<p class="en-desc">Descripción de una linea</p>
 							<p class="en-gana">GANA $10 CRÉDITOS</p>
 						</div>
-						</a>
+						
 					</div>
 				</div>
 			</div>
@@ -61,6 +69,18 @@
 				$('.menu-nav').slideUp();
 				$(this).hide();
 			})
-		</script>
+	</script>
+	<script>
+		$('#encuesta1, #encuesta2').on('click', function(){
+			$('#modal-encuesta').fadeIn();
+			$('#modal-dismis').show();
+
+		})
+
+		$('#modal-dismis, #close-modal').on('click', function(){
+			$('#modal-encuesta, #modal-dismis').fadeOut();
+			
+		})
+	</script>
 </body>
 </html>

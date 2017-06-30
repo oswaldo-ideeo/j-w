@@ -44,7 +44,7 @@
 					</div>
 
 					<div class="perfil-sec">
-						<div class="p-datos saldon2 primer-paso">
+						<div class="p-datos saldon2 primer-paso space-on-xs">
 							<img src="images/logo-amarillo-sombra.png" alt="" class="d-inline">
 							<p class="n2-ingresa d-inline invert-men">!invierte capital¡</p>
 							<div class="in-uno">
@@ -55,7 +55,7 @@
 							
 						</div>
 
-						<div class="p-datos saldon2 segundo-paso">
+						<div class="p-datos saldon2 segundo-paso space-on-xs">
 							<img src="images/logo-amarillo-sombra.png" alt="" class="d-inline">
 							<p class="n2-ingresa d-inline">Ingresa el monto que deseas invertir</p>
 							<form action="">
